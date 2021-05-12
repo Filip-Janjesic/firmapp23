@@ -16,3 +16,10 @@ datum_rodjenja datetime,
 placa decimal(18,2)
 );
 
+create table sudjeluju(
+projekt int,
+programer int,
+datum_pocetka datetime,
+datum_kraja datetime
+);
+
