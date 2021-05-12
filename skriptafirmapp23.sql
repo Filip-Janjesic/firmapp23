@@ -23,3 +23,4 @@ datum_pocetka datetime,
 datum_kraja datetime
 );
 
+create
