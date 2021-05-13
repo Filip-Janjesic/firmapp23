@@ -16,11 +16,12 @@ datum_rodjenja datetime,
 placa decimal(18,2)
 );
 
-create table sudjeluju(
+create table sudjeluje(
 projekt int,
 programer int,
 datum_pocetka datetime,
 datum_kraja datetime
 );
 
-alter table 
+alter table sudjeluje  add foreign key (projekt) references projekt (sifra);
+alter table sudjeluje  add foreign key (programer) references programer (sifra);
